@@ -34,11 +34,10 @@ export function Chatbot() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("/api/groq/chat/completions", {
+      const response = await fetch("/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${import.meta.env.VITE_GROQ_API_KEY}`,
         },
         body: JSON.stringify({
           model: "llama-3.1-8b-instant", // Updated model ID
