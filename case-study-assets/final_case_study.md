@@ -162,7 +162,7 @@ The project was built using an intensive, AI-assisted "Agentic Workflow." Below 
 *   ✅ **Deployment Proof:** 
     ![Vercel Production Deployment Dashboard](./deployment_proof.png)
     *(Note: Please save the Vercel dashboard screenshot you just provided into the `case-study-assets` folder as `deployment_proof.png`)*
-*   ✅ **Oracle.AI Adversarial Test:** `[Insert Screenshot of Bot refusing a non-medical prompt Here]`
+*   ✅ **Oracle.AI Adversarial Test:** ![Oracle AI Adversarial Test](./oracle_adversarial_test.png)
 *   ✅ **Timeline Interactivity:** `[Insert GIF of scroll-linked SVG animations Here]`
 
 ---
