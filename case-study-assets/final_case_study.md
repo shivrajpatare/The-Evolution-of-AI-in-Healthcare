@@ -149,8 +149,19 @@ The project was built using an intensive, AI-assisted "Agentic Workflow." Below 
 
 *   ✅ **GitHub Repository:** [https://github.com/shivrajpatare/The-Evolution-of-AI-in-Healthcare](https://github.com/shivrajpatare/The-Evolution-of-AI-in-Healthcare)
 *   ✅ **Technical Documentation:** View the comprehensive [README.md](https://github.com/shivrajpatare/The-Evolution-of-AI-in-Healthcare/blob/main/README.md) for pipeline overviews, schema registries, and API references.
-*   ✅ **Architecture Diagram:** `[Insert Excalidraw/Mermaid Diagram Here]`
-*   ✅ **Deployment Proof:** `[Insert Screenshot of Vercel Dashboard Here]`
+*   ✅ **Architecture Diagram:**
+    ```mermaid
+    graph TD
+        classDef dark fill:#1a1a2e,stroke:#e94560,stroke-width:2px,color:#fff;
+        A[Vite SPA Client]:::dark -->|User Query| B[Vercel Serverless Function api/chat.js]:::dark
+        B -->|Secure Llama-3.1-8b Request| C[Groq LPU Engine]:::dark
+        C -->|Sub-second Response| B
+        B -->|Markdown Stream| A
+        D[milestones.json]:::dark -->|Static Load| A
+    ```
+*   ✅ **Deployment Proof:** 
+    ![Vercel Production Deployment Dashboard](./deployment_proof.png)
+    *(Note: Please save the Vercel dashboard screenshot you just provided into the `case-study-assets` folder as `deployment_proof.png`)*
 *   ✅ **Oracle.AI Adversarial Test:** `[Insert Screenshot of Bot refusing a non-medical prompt Here]`
 *   ✅ **Timeline Interactivity:** `[Insert GIF of scroll-linked SVG animations Here]`
 
