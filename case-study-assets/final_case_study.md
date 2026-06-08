@@ -6,7 +6,7 @@
 
 ## 1. Executive Summary
 
-**The Evolution of AI in Healthcare (2000–2026)** is an award-winning, immersive digital documentary engineered to chronicle the transformative journey of artificial intelligence in medicine. Moving beyond traditional static documentation, this project delivers a scroll-driven, cinematic historiography powered by modern web physics (Framer Motion, React Three Fiber) and an embedded, ultra-low-latency AI clinical historian (Oracle.AI). 
+**The Evolution of AI in Healthcare (2000–2026)** is an AI-powered interactive digital documentary engineered to chronicle the transformative journey of artificial intelligence in medicine. Moving beyond traditional static documentation, this project delivers a scroll-driven, cinematic historiography powered by modern web physics (Framer Motion, React Three Fiber) and an embedded, ultra-low-latency AI clinical historian (Oracle.AI). 
 
 This case study details the comprehensive lifecycle of the project—from the initial pain point of fragmented historical data to the architectural pivot from Next.js to Vite, the integration of Groq's LPU acceleration, and the rigorous prompt engineering required to build a safe, domain-restricted AI agent.
 
